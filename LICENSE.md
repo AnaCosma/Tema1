@@ -1,3 +1,5 @@
+def find_anagrams(a,b): ##a is the listofwords.txt
+
 with open('listofwords.txt') as f: # note: 'r' is the default mode
     lines = f.readlines() # also: using `with` is good practice
 for line in lines:
